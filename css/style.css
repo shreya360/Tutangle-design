@@ -25,6 +25,11 @@
     background-color: #caeff5 ;
 }
 
+.searchbar input{
+    float:left;
+    margin-top: 2px;
+}
+
 .search-right{
     float:right;
 }
@@ -62,6 +67,7 @@
 
 .top-profile h5{
     text-align: right;
+    font-size: 18px;
 }
 .uname{
     float:right;
@@ -72,6 +78,7 @@
 .nav a{
     text-decoration:none;
     color:black;
+    font-size: 12px;
 }
 .nav a:hover{
     color:blue;
@@ -126,7 +133,7 @@ input{
     float: left;
 }
 .invites img{
-    margin-left: 24px;
+    margin-left: 40px;
 }
 .friends{
     width: 50%;
@@ -136,7 +143,7 @@ input{
     float: right;
 }
 .friends img{
-    margin-left: 16px;
+    margin-left: 40px;
 }
 .dec{
     text-decoration: none;
@@ -160,8 +167,8 @@ input{
     padding: 13px;
     font-size: 12px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-
 }
+
 .recent-search .ptags,.recent-search2 .ptags{
     
     background-color: #f5f5f5;
@@ -174,10 +181,44 @@ input{
     float: right;
 }
 
+.recent-search2{
+    background: #f5f5f5;
+    height: 580px;
+}
 .recent-search2 p a img{
     float: right;
 }
 
+.videotutorial{
+    background: #f5f5f5;
+    height: 720px;
+}
+
+.videotutorial h5{
+    background-color: rgb(34, 161, 211);
+    font-size: 15px;
+    color: white;
+    padding: 13px;
+}
+.videotutorial p a{
+    float: right;
+}
+
+.videotutorial .ptags{
+    background-color: #f5f5f5;
+}
+
+.videotutorial .ptags{
+    
+    background-color: #f5f5f5;
+}
+
+.videotutorial .ptags p{
+    padding: 13px;
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
 .nav-pills{
     float: left;
     width: 519px;
